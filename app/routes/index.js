@@ -18,18 +18,19 @@ module.exports = function (app, passport) {
 	app.route('/')
 		.get(function (req, res) {
 			// res.sendFile(path + '/public/index.html');
-			res.render('index');
+			res.render('index', {user: req.user});
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			res.sendFile(path + '/public/login.html');
+			// res.sendFile(path + '/public/login.html');
+			res.redirect('/auth/github');
 		});
 
 	app.route('/logout')
 		.get(function (req, res) {
 			req.logout();
-			res.redirect('/login');
+			res.redirect('/');
 		});
 
 	app.route('/profile')
@@ -47,8 +48,8 @@ module.exports = function (app, passport) {
 
 	app.route('/auth/github/callback')
 		.get(passport.authenticate('github', {
-			successRedirect: '/',
-			failureRedirect: '/login'
+			successRedirect: 'http://localhost:3000',
+			failureRedirect: '/'
 		}));
 
 	app.route('/api/:id/clicks')
