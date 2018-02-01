@@ -1,5 +1,10 @@
 extends includes/layout.pug
 block content
-  h1.text-center Hello, world!
+  h1 Get your Nightlife on!
+  p.text-muted Check out what's going on near you.
+  .input-group.mb-3
+    input.form-control(type='text', placeholder="Search by City, State & Zip", aria-label="Recipient's username", aria-describedby='basic-addon2')
+    .input-group-append
+      button.btn.btn-outline-secondary(type='button') Search
   
     
