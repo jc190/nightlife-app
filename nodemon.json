@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "./app/common",
+    "./app/controllers/*.client.js"
+  ]
+}
