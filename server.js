@@ -14,7 +14,7 @@ require('dotenv').load();
 require('./app/config/passport')(passport);
 
 // Connect to database
-// mongoose.connect(process.env.MONGO_URI, {useMongoClient: true});
+mongoose.connect(process.env.MONGO_URI, {useMongoClient: true});
 mongoose.Promise = global.Promise;
 
 // Use pug views
@@ -47,7 +47,7 @@ app.listen(port,  function () {
 		// Use node-sass to compile scss files
 		sass.render({
 			file: './styles/main.scss',
-			outFile: './public/css'
+			outFile: './public/css/main.scss'
 		}, function(error, result) {
 			if(!error) {
 				fs.writeFile('./public/css/main.css', result.css, function (err) {
