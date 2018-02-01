@@ -46,7 +46,8 @@ app.listen(port,  function () {
 	browserSync.watch('./styles/**/*.scss').on('change', function() {
 		// Use node-sass to compile scss files
 		sass.render({
-			file: './styles/main.scss'
+			file: './styles/main.scss',
+			outFile: './public/css'
 		}, function(error, result) {
 			if(!error) {
 				fs.writeFile('./public/css/main.css', result.css, function (err) {
