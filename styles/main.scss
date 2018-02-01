@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.background-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('/public/img/nightlife.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+}
