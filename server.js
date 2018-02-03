@@ -46,12 +46,15 @@ app.listen(port,  function () {
 	browserSync.watch('./styles/**/*.scss').on('change', function() {
 		// Use node-sass to compile scss files
 		sass.render({
-			file: './styles/main.scss',
-			outFile: './public/css/main.scss'
+			file: process.cwd() + '/styles/main.scss',
+			outFile: process.cwd() + '/public/css/main.css'
 		}, function(error, result) {
 			if(!error) {
-				fs.writeFile('./public/css/main.css', result.css, function (err) {
-					if(!err) console.log('SCSS has been compiled to main.css.');
+				fs.writeFile(process.cwd() + '/public/css/main.css', result.css, function (err) {
+					if(!err) {
+						console.log('SCSS has been compiled to main.css.');
+						browserSync.reload();
+					}
 				});
 			}
 		});
