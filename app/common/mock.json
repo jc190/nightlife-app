@@ -1,0 +1,842 @@
+{
+  "businesses": [
+      {
+          "id": "holy-hound-taproom-york",
+          "name": "Holy Hound Taproom",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FVKIVPDWn1nvGYHDa9TjNg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/holy-hound-taproom-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 79,
+          "categories": [
+              {
+                  "alias": "beerbar",
+                  "title": "Beer Bar"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.9606715630243,
+              "longitude": -76.728840078262
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "57 W Market St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "57 W Market St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178552410",
+          "display_phone": "(717) 855-2410",
+          "distance": 4447.390007646
+      },
+      {
+          "id": "the-first-post-york",
+          "name": "The First Post",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EyjstUyR28--agpnQRuT8g/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/the-first-post-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 132,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "seafood",
+                  "title": "Seafood"
+              }
+          ],
+          "rating": 4,
+          "coordinates": {
+              "latitude": 39.9839264826653,
+              "longitude": -76.6490032656642
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "3691 E Market St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17402",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "3691 E Market St",
+                  "York, PA 17402"
+              ]
+          },
+          "phone": "+17174308115",
+          "display_phone": "(717) 430-8115",
+          "distance": 3914.6595216179994
+      },
+      {
+          "id": "revival-social-club-york-2",
+          "name": "Revival Social Club",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3RJ-HIms5k1l9lFmM4C_JA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/revival-social-club-york-2?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 29,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "salad",
+                  "title": "Salad"
+              },
+              {
+                  "alias": "cocktailbars",
+                  "title": "Cocktail Bars"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.96312,
+              "longitude": -76.7278
+          },
+          "transactions": [
+              "pickup",
+              "restaurant_reservation"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "19 North George St",
+              "address2": null,
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "19 North George St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17174302981",
+          "display_phone": "(717) 430-2981",
+          "distance": 4400.110012456
+      },
+      {
+          "id": "rockfish-public-house-york",
+          "name": "Rockfish Public House",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/rQX9L5hUy69215YKRH-E1Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/rockfish-public-house-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 56,
+          "categories": [
+              {
+                  "alias": "seafood",
+                  "title": "Seafood"
+              },
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              }
+          ],
+          "rating": 4,
+          "coordinates": {
+              "latitude": 39.9640399524996,
+              "longitude": -76.7287426069379
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "110 N George St",
+              "address2": "",
+              "address3": null,
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "110 N George St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178935928",
+          "display_phone": "(717) 893-5928",
+          "distance": 4497.889326572
+      },
+      {
+          "id": "beer-mongers-dallastown",
+          "name": "Beer Mongers",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-n9IbG37HlmKDugdLXeG7Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/beer-mongers-dallastown?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 15,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 39.906487,
+              "longitude": -76.657021
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "3000 S Queen St",
+              "address2": "",
+              "address3": "",
+              "city": "Dallastown",
+              "zip_code": "17313",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "3000 S Queen St",
+                  "Dallastown, PA 17313"
+              ]
+          },
+          "phone": "+17175014251",
+          "display_phone": "(717) 501-4251",
+          "distance": 5766.37224111
+      },
+      {
+          "id": "white-rose-bar-and-grill-york",
+          "name": "White Rose Bar and Grill",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Z5b1Me1YBZGQAxIx62vmqg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/white-rose-bar-and-grill-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 189,
+          "categories": [
+              {
+                  "alias": "seafood",
+                  "title": "Seafood"
+              },
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.9630676523499,
+              "longitude": -76.7305490676638
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "48 N Beaver St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "48 N Beaver St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178485369",
+          "display_phone": "(717) 848-5369",
+          "distance": 4629.559088012
+      },
+      {
+          "id": "brickyard-tavern-york",
+          "name": "Brickyard Tavern",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Ytldg15Ud5Ms_vOEgbqjUQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/brickyard-tavern-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 10,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              }
+          ],
+          "rating": 4,
+          "coordinates": {
+              "latitude": 39.95877,
+              "longitude": -76.7024
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "748 S Albemarle St",
+              "address2": null,
+              "address3": null,
+              "city": "York",
+              "zip_code": "17403",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "748 S Albemarle St",
+                  "York, PA 17403"
+              ]
+          },
+          "phone": "+17178548739",
+          "display_phone": "(717) 854-8739",
+          "distance": 2204.541363346
+      },
+      {
+          "id": "the-cove-york",
+          "name": "The Cove",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/JcUdPyNjUEAlHIdjVYzD5A/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/the-cove-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 42,
+          "categories": [
+              {
+                  "alias": "bbq",
+                  "title": "Barbeque"
+              },
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "musicvenues",
+                  "title": "Music Venues"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.9357032775879,
+              "longitude": -76.7154541015625
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "1500 S George St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17403",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "1500 S George St",
+                  "York, PA 17403"
+              ]
+          },
+          "phone": "+17177933771",
+          "display_phone": "(717) 793-3771",
+          "distance": 3912.661526008
+      },
+      {
+          "id": "iron-horse-york-york",
+          "name": "Iron Horse York",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/AovfeJv-eMWNqE4WSjH4JQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/iron-horse-york-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 36,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "cocktailbars",
+                  "title": "Cocktail Bars"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.962687,
+              "longitude": -76.728403
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "1 W Market St",
+              "address2": null,
+              "address3": null,
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "1 W Market St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178464766",
+          "display_phone": "(717) 846-4766",
+          "distance": 4441.749914681999
+      },
+      {
+          "id": "first-capital-dispensing-company-york",
+          "name": "First Capital Dispensing Company",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5yUV0dmsFYp2r6uPRwa4lA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/first-capital-dispensing-company-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 15,
+          "categories": [
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              },
+              {
+                  "alias": "pubs",
+                  "title": "Pubs"
+              }
+          ],
+          "rating": 4,
+          "coordinates": {
+              "latitude": 39.9625549316406,
+              "longitude": -76.7321395874023
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "57 N Pershing Ave",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "57 N Pershing Ave",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178541714",
+          "display_phone": "(717) 854-1714",
+          "distance": 4752.8964916019995
+      },
+      {
+          "id": "granfalloons-york",
+          "name": "Granfalloons",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/j1FsmpEJWVdy-ePjsipizA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/granfalloons-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 11,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.96025,
+              "longitude": -76.72521
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "41 E Princess St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "41 E Princess St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178435450",
+          "display_phone": "(717) 843-5450",
+          "distance": 4134.06132662
+      },
+      {
+          "id": "mudhook-brewing-company-york",
+          "name": "Mudhook Brewing Company",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vGPXNnqHdjsmFXOX_6x0aw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/mudhook-brewing-company-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 73,
+          "categories": [
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              },
+              {
+                  "alias": "pubs",
+                  "title": "Pubs"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.96291,
+              "longitude": -76.72933
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "34 N Cherry Ln",
+              "address2": null,
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "34 N Cherry Ln",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17177473605",
+          "display_phone": "(717) 747-3605",
+          "distance": 4524.008753838
+      },
+      {
+          "id": "the-handsome-cab-york",
+          "name": "The Handsome Cab",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/t8A88KR3zSIs7oE6QMn8vQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/the-handsome-cab-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 22,
+          "categories": [
+              {
+                  "alias": "tapas",
+                  "title": "Tapas Bars"
+              },
+              {
+                  "alias": "pianobars",
+                  "title": "Piano Bars"
+              },
+              {
+                  "alias": "cocktailbars",
+                  "title": "Cocktail Bars"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.9639970064163,
+              "longitude": -76.7286115139723
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "106 N George St",
+              "address2": null,
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "106 N George St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17177932413",
+          "display_phone": "(717) 793-2413",
+          "distance": 4464.73724444
+      },
+      {
+          "id": "knickers-pub-york",
+          "name": "Knickers Pub",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wugbTd72nSasylWbxCACEQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/knickers-pub-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 31,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "pubs",
+                  "title": "Pubs"
+              }
+          ],
+          "rating": 3,
+          "coordinates": {
+              "latitude": 39.95802,
+              "longitude": -76.66768
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "2700 Mt Rose Ave",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17402",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "2700 Mt Rose Ave",
+                  "York, PA 17402"
+              ]
+          },
+          "phone": "+17177550123",
+          "display_phone": "(717) 755-0123",
+          "distance": 865.9838423249998
+      },
+      {
+          "id": "oak-york",
+          "name": "oak",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/xbP1nswM85R2IstN-WWIaQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/oak-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 13,
+          "categories": [
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              },
+              {
+                  "alias": "whiskeybars",
+                  "title": "Whiskey Bars"
+              }
+          ],
+          "rating": 3,
+          "coordinates": {
+              "latitude": 39.95802,
+              "longitude": -76.66768
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "2700 Mt Rose Ave",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17402",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "2700 Mt Rose Ave",
+                  "York, PA 17402"
+              ]
+          },
+          "phone": "+17177550123",
+          "display_phone": "(717) 755-0123",
+          "distance": 865.9838423249998
+      },
+      {
+          "id": "aroogas-york-2",
+          "name": "Arooga's",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sw6SZcNsmR3LVgSOQHlfQQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/aroogas-york-2?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 49,
+          "categories": [
+              {
+                  "alias": "sportsbars",
+                  "title": "Sports Bars"
+              },
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              },
+              {
+                  "alias": "chicken_wings",
+                  "title": "Chicken Wings"
+              }
+          ],
+          "rating": 3,
+          "coordinates": {
+              "latitude": 39.9570658,
+              "longitude": -76.6821639
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "1211 Haines Rd",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17402",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "1211 Haines Rd",
+                  "York, PA 17402"
+              ]
+          },
+          "phone": "+17177189464",
+          "display_phone": "(717) 718-9464",
+          "distance": 453.96127535439996
+      },
+      {
+          "id": "murphs-study-hall-york",
+          "name": "Murph's Study Hall",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Y24e0QfgPessT7jgA3DcLw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/murphs-study-hall-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 9,
+          "categories": [
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              },
+              {
+                  "alias": "pubs",
+                  "title": "Pubs"
+              },
+              {
+                  "alias": "danceclubs",
+                  "title": "Dance Clubs"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 39.94894,
+              "longitude": -76.73061
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "850 Jessop Pl",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17403",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "850 Jessop Pl",
+                  "York, PA 17403"
+              ]
+          },
+          "phone": "+17178484030",
+          "display_phone": "(717) 848-4030",
+          "distance": 4632.893962359999
+      },
+      {
+          "id": "waterway-bar-and-grill-york",
+          "name": "Waterway Bar & Grill",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/XPxpao3n0ejv0VjO7xpttA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/waterway-bar-and-grill-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 17,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "newamerican",
+                  "title": "American (New)"
+              }
+          ],
+          "rating": 3,
+          "coordinates": {
+              "latitude": 39.9621086120605,
+              "longitude": -76.7333984375
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "220 W Philadelphia St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17401",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "220 W Philadelphia St",
+                  "York, PA 17401"
+              ]
+          },
+          "phone": "+17178454773",
+          "display_phone": "(717) 845-4773",
+          "distance": 4850.311933944
+      },
+      {
+          "id": "jackie-bs-york",
+          "name": "Jackie Bs",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qdZuqkyI-LjRcDI74J3Y4Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/jackie-bs-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 17,
+          "categories": [
+              {
+                  "alias": "pubs",
+                  "title": "Pubs"
+              }
+          ],
+          "rating": 3,
+          "coordinates": {
+              "latitude": 39.9720458984375,
+              "longitude": -76.7151336669922
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "300 Mulberry St",
+              "address2": "",
+              "address3": "",
+              "city": "York",
+              "zip_code": "17403",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "300 Mulberry St",
+                  "York, PA 17403"
+              ]
+          },
+          "phone": "+17178546247",
+          "display_phone": "(717) 854-6247",
+          "distance": 3689.0031776399996
+      },
+      {
+          "id": "xhale-hookah-york",
+          "name": "Xhale Hookah",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dLX_MLrdKnOV70Xk4fbt3w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/xhale-hookah-york?adjust_creative=WLUW0NbaRxAYdK-15fYG3g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=WLUW0NbaRxAYdK-15fYG3g",
+          "review_count": 3,
+          "categories": [
+              {
+                  "alias": "hookah_bars",
+                  "title": "Hookah Bars"
+              }
+          ],
+          "rating": 5,
+          "coordinates": {
+              "latitude": 39.9728951,
+              "longitude": -76.6749123
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "2580 Eastern Blvd",
+              "address2": null,
+              "address3": "",
+              "city": "York",
+              "zip_code": "17402",
+              "country": "US",
+              "state": "PA",
+              "display_address": [
+                  "2580 Eastern Blvd",
+                  "York, PA 17402"
+              ]
+          },
+          "phone": "+17174306280",
+          "display_phone": "(717) 430-6280",
+          "distance": 1789.53619046
+      }
+  ],
+  "total": 45,
+  "region": {
+      "center": {
+          "longitude": -76.6770172119,
+          "latitude": 39.9560241981
+      }
+  }
+}
