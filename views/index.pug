@@ -1,10 +1,20 @@
 extends includes/layout.pug
 block content
-  h1.text-white Get your Nightlife on!
-  p.text-light Check out what's going on near you.
-  .input-group.mb-3
-    input.form-control(type='text', placeholder="Search by City, State & Zip", aria-label="Recipient's username", aria-describedby='basic-addon2')
-    .input-group-append
-      button.btn.btn-outline-light(type='button') Search
-  
+  include includes/jumbotron.pug
+
+  .container.align-self-end
+    .row.text-center
+      .col-md.p-4
+        i.fas.fa-search.fa-5x.mb-4
+        h4.text-uppercase Search
+        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, ipsa, voluptates, temporibus totam iusto assumenda veritatis.
+      .col-md.p-4
+        i.fas.fa-map-marker.fa-5x.mb-4
+        h4.text-uppercase Locate
+        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, ipsa, voluptates, temporibus totam iusto.
+      .col-md.p-4
+        i.fas.fa-glass-martini.fa-5x.mb-4
+        h4.text-uppercase Live it up
+        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, ipsa, voluptates, temporibus.
+
     

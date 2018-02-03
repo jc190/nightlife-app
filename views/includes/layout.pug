@@ -2,12 +2,9 @@ doctype html
 html(lang='en')
   include head.pug
   body
-    .background-container
-    .d-flex.flex-column.h-100
-      header
-        include navbar.pug
-      .d-flex.h-100.align-items-center
-        .container
-          block content
-            noscript This website relies on Javascript to work. Please turn it on and refresh the page.
+    noscript This website relies on Javascript to work. Please turn it on and refresh the page.
+    header
+      include navbar.pug
+    block content
     include footer.pug
+    include foot.pug
