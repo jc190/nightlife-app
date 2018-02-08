@@ -18,7 +18,7 @@
     "javascript"
   ],
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm run prod",
     "dev": "NODE_ENV='development' nodemon server.js",
     "prod": "node server.js"
   },
