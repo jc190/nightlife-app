@@ -4,11 +4,17 @@ block content
   .container-fluid.bg-light.text-dark
     .container
       .row
-        .col-sm-6
-          .card.my-4
-            img.card-img-top(src='http://via.placeholder.com/350x150')
-            .card-body
-              h5.card-title The best bar
-              p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita enim assumenda, cum labore esse accusamus. Sit quae suscipit minus voluptate at quibusdam voluptatibus, id aut eligendi vel similique eaque nemo!
-              a.btn.btn-primary(href='#') Going
-                span.badge.badge-light.ml-3 9
+        if data
+          each business in data
+            .col-sm-6
+              .card.my-4
+                img.card-img-top.business-image(src=business.image_url)
+                .card-body
+                  h5.card-title #{business.name}
+                  p #{business.category}
+                  p #{business.address}
+                  a.btn.btn-primary.going-btn(href='#' data-business=business.id) Going
+                    span.badge.badge-light.ml-3 0
+block scripts
+  script(src='/common/ajax-functions.js')
+  script(src='/controllers/goingController.client.js')

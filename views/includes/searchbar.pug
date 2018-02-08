@@ -1,4 +1,5 @@
-.input-group.mb-3
-  input.form-control(type='text', placeholder="Search by City, State & Zip", aria-label="Recipient's username", aria-describedby='basic-addon2')
-  .input-group-append
-    button.btn.btn-outline-light(type='button') Search
+form(action='/results', method='get')
+  .input-group.mb-3
+    input.form-control(type='text', name='q', placeholder="Search by City, State & Zip", required)
+    .input-group-append
+      button.btn.btn-outline-light(type='submit') Search

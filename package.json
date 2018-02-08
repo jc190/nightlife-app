@@ -18,7 +18,9 @@
     "javascript"
   ],
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "npm run dev",
+    "dev": "NODE_ENV='development' nodemon server.js",
+    "prod": "node server.js"
   },
   "author": "James Calhoun",
   "license": "MIT",

@@ -41,30 +41,29 @@ routes(app, passport);
 var port = process.env.PORT || 8080;
 app.listen(port,  function () {
 	console.log('Node.js listening on port ' + port + '...');
-	// Listen to change events on .pug/.css/.js and reload
-	browserSync.watch('./views/**/*.pug').on('change', browserSync.reload);
-	browserSync.watch('./styles/**/*.scss').on('change', function() {
-		// Use node-sass to compile scss files
-		sass.render({
-			file: process.cwd() + '/styles/main.scss',
-			outFile: process.cwd() + '/public/css/main.css'
-		}, function(error, result) {
-			if(!error) {
-				fs.writeFile(process.cwd() + '/public/css/main.css', result.css, function (err) {
-					if(!err) {
-						console.log('SCSS has been compiled to main.css.');
-						browserSync.reload();
-					}
-				});
-			}
+	if (process.env.NODE_ENV === 'development') {
+		// Listen to change events on .pug/.css/.js and reload
+		browserSync.watch('./views/**/*.pug').on('change', browserSync.reload);
+		browserSync.watch('./styles/**/*.scss').on('change', function() {
+			// Use node-sass to compile scss files
+			sass.render({
+				file: process.cwd() + '/styles/main.scss',
+				sourceMap: true,
+				outFile: process.cwd() + '/public/css/main.css'
+			}, function(error, result) {
+				if(error) console.log(error);
+				if(!error) {
+					fs.writeFileSync(process.cwd() + '/public/css/main.css', result.css);
+					browserSync.reload('./public/css/main.css');
+				}
+			});
 		});
-	});
-	browserSync.watch('./public/css/main.css').on('change', browserSync.reload);
-	browserSync.watch('./app/common/**/*.js').on('change', browserSync.reload);
-	browserSync.watch('./app/controllers/**/*.client.js').on('change', browserSync.reload);
-	// Start browser-sync
-	browserSync.init({
-		proxy: 'http://localhost:' + port,
-		open: false
-	});
+		browserSync.watch('./app/common/**/*.js').on('change', browserSync.reload);
+		browserSync.watch('./app/controllers/**/*.client.js').on('change', browserSync.reload);
+		// Start browser-sync
+		browserSync.init({
+			proxy: 'http://localhost:' + port,
+			open: false
+		});
+	}
 });

@@ -1,7 +1,10 @@
 'use strict';
 
 var path = process.cwd();
-var ClickHandler = require(path + '/app/controllers/clickHandler.server.js');
+var http = require('https');
+
+var GoingHandler = require('../controllers/goingHandler.server.js');
+var goingHandler = new GoingHandler(); 
 
 module.exports = function (app, passport) {
 
@@ -9,21 +12,25 @@ module.exports = function (app, passport) {
 		if (req.isAuthenticated()) {
 			return next();
 		} else {
-			res.redirect('/login');
+			res.redirect('/auth/github');
 		}
 	}
 
-	var clickHandler = new ClickHandler();
+	function isLoggedInAjax (req, res, next) {
+		if (req.isAuthenticated()) {
+			return next();
+		} else {
+			res.json({ redirect: '/auth/github' });
+		}
+	}
 
 	app.route('/')
 		.get(function (req, res) {
-			// res.sendFile(path + '/public/index.html');
 			res.render('index', {user: req.user});
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			// res.sendFile(path + '/public/login.html');
 			res.redirect('/auth/github');
 		});
 
@@ -35,8 +42,42 @@ module.exports = function (app, passport) {
 
 	app.route('/results')
 		.get(function (req, res) {
-			res.render('results');
+			var path1 = '/v3/businesses/search?location='+ req.query.q +'&categories=bars';
+			path1 = encodeURI(path1);
+			var options = {
+				hostname: 'api.yelp.com',
+				path: path1,
+				headers: {
+					'Authorization': 'Bearer ' + process.env.YELP_TOKEN
+				}
+			}
+			http.get(options, function(data) {
+				let rawData = '';
+				data.setEncoding('utf8');
+				data.on('data', function(chunk) {rawData += chunk});
+				data.on('end', function() {
+					try {
+						const parsedData = JSON.parse(rawData);
+						const mappedData = parsedData.businesses.map(function(business) {
+							return {
+								id: business.id,
+								name: business.name,
+								image_url: business.image_url,
+								category: business.categories[0].title,
+								address: business.location.display_address
+							}
+						})
+						res.render('results', {user: req.user, data: mappedData});
+					} catch (error) {
+						console.log(error.message);
+					}
+				});
+			});
 		});
+
+	app.route('/business/:id/going')
+		.get(goingHandler.getNumGoing)
+		.post(isLoggedInAjax, goingHandler.addToGoing);
 
 	app.route('/api/:id')
 		.get(isLoggedIn, function (req, res) {
@@ -48,12 +89,8 @@ module.exports = function (app, passport) {
 
 	app.route('/auth/github/callback')
 		.get(passport.authenticate('github', {
-			successRedirect: 'http://localhost:3000',
 			failureRedirect: '/'
-		}));
-
-	app.route('/api/:id/clicks')
-		.get(isLoggedIn, clickHandler.getClicks)
-		.post(isLoggedIn, clickHandler.addClick)
-		.delete(isLoggedIn, clickHandler.resetClicks);
+		}), function (req, res) {
+			res.redirect(req.headers.referer);
+		});
 };

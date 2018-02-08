@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #f8f9fa;
-  color: #ffffff;
+  color: #444444;
   margin-bottom: 60px; }
 
 hr {
@@ -26,3 +26,8 @@ hr {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.business-image {
+  max-height: 250px; }
+
+/*# sourceMappingURL=main.css.map */
