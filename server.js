@@ -5,8 +5,7 @@ var routes = require('./app/routes/index.js');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var session = require('express-session');
-var browserSync = require('browser-sync').create();
-var sass = require('node-sass');
+
 var fs = require('fs');
 
 var app = express();
@@ -42,6 +41,8 @@ var port = process.env.PORT || 8080;
 app.listen(port,  function () {
 	console.log('Node.js listening on port ' + port + '...');
 	if (process.env.NODE_ENV === 'development') {
+		var browserSync = require('browser-sync').create();
+		var sass = require('node-sass');
 		// Listen to change events on .pug/.css/.js and reload
 		browserSync.watch('./views/**/*.pug').on('change', browserSync.reload);
 		browserSync.watch('./styles/**/*.scss').on('change', function() {
